@@ -6,14 +6,14 @@
 </template>
 
 <script>
-import OurProject from "./components/OurProject.vue";
+// import OurProject from "./components/OurProject.vue";
 import { RouterView } from "vue-router";
-export default {
-  name: "App",
-  components: {
-    OurProject,
-  },
-};
+// export default {
+//   name: "App",
+//   components: {
+//     OurProject,
+//   },
+// };
 </script>
 
 <style>
