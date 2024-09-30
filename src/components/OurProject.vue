@@ -9,32 +9,31 @@
     <div class="project-container">
       <div class="project emergency-aid">
         <a href="#" class="brutalist-button emergency-button">
-          <strong>Emergency Aid. WAR 2022.</strong>
-          <p>
-            providing food and medicine to the shelters and animals which lost
-            their homes and families due to the war<
-          </p>
+          <h1 class="tittle">Emergency Aid. WAR 2022.</h1>
+          <span
+            >providing food and medicine to the shelters and animals which lost
+            their homes and families due to the war</span
+          >
         </a>
       </div>
 
       <div class="project feed-line">
         <a href="#" class="brutalist-button feed-button">
-          <strong>Non-commercial feed line</strong>
-
-          <p>
-            construction of industrial production base where food for shelters
-            will be produced on a free basis
-          </p>
-        </a>
+          <h1 class="tittle">Non-commercial feed line</h1>
+          <span
+            >construction of industrial production base where food for shelters
+            will be produced on a free basis</span
+          ></a
+        >
       </div>
 
       <div class="project education-control">
         <a href="#" class="brutalist-button education-button">
-          <span>Education and Control</span>
-          <p>
+          <h1 class="tittle">Education and Control</h1>
+          <span>
             lectures on communication, organisation and coordination of
             processes, control over the use of aid
-          </p>
+          </span>
         </a>
       </div>
     </div>
@@ -58,6 +57,10 @@
   font-weight: 700;
   line-height: 1.25em;
   padding-left: 183px;
+}
+.tittle {
+  font-size: 2.5vw;
+  font-weight: 700;
 }
 
 .description {
@@ -90,36 +93,30 @@
 .brutalist-button {
   display: block;
   text-decoration: none;
-  padding: 20px;
-  font-size: 18px;
-  /* font-weight: bold; */
+  padding: 40px 60px;
+  font-size: 2vw;
   color: #fff;
   border: 2px solid #fff;
   transition: border 0.3s ease, transform 0.3s ease;
+  min-width: 300px;
+  text-align: left;
 }
 
 .emergency-button {
   background-color: black;
 }
 
-.emergency-button:hover {
-  border-color: 2px solid #fff;
-  color: #fff;
-}
 .feed-button {
   background-color: #00d100;
-}
-
-.feed-button:hover {
-  border-color: #fff;
-  color: #fff;
 }
 
 .education-button {
   background-color: #ff75d0;
 }
 
-.education-button:hover {
+/* Button hover effect */
+.brutalist-button:hover {
+  transform: scale(1.05); /* Slightly enlarge the button on hover */
   border-color: #fff;
   color: #fff;
 }
