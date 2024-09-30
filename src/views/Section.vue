@@ -1,10 +1,15 @@
 <template>
-  <div>
-    <SectionOne />
-    <SectionTwo />
+  <SectionOne />
+
+  <SectionTwo />
+  <OurProject />
+  <div class="donate-container">
+    <RouterLink to="/donate" class="brutalist-button">Donate</RouterLink>
   </div>
 </template>
-<script>
-import SectionOne from "@/components/SectionOne.vue";
-import SectionTwo from "@/components/SectionTwo.vue";
+<script setup>
+import OurProject from "@/components/OurProject.vue";
+import SectionOne from "../components/SectionOne.vue";
+import SectionTwo from "../components/SectionTwo.vue";
+import { RouterView, RouterLink } from "vue-router";
 </script>
