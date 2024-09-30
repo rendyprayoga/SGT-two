@@ -6,6 +6,7 @@
 </template>
 
 <script>
+<<<<<<< HEAD
 import OurProject from "./components/OurProject.vue";
 import { RouterView } from "vue-router";
 export default {
@@ -14,6 +15,16 @@ export default {
     OurProject,
   },
 };
+=======
+// import OurProject from "./components/OurProject.vue";
+import { RouterView } from "vue-router";
+// export default {
+//   name: "App",
+//   components: {
+//     OurProject,
+//   },
+// };
+>>>>>>> 0e45d9790a0c1a93f647d2af75c3c4aff3c5a7a0
 </script>
 
 <style>
